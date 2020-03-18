@@ -77,8 +77,6 @@ The following changes to default Flex behavior//UI may not play well together wh
      - Transfer UI (to queue and worker)
    - Historical Reporting
      - How is the single task with multiple reservations+segments represented? Accurate?
-       - https://www.twilio.com/docs/flex/flex-wfo/analytics-data-model
-       - https://www.twilio.com/docs/flex/flex-wfo/conversation-structure
      - Is the queue level reporting accurate across transfers?
    - Realtime Reporting
      - Confirm UI is consistent
