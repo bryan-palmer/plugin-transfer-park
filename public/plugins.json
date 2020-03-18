@@ -1,0 +1,13 @@
+[
+  {
+    "name": "TransferParkPlugin",
+    "version": "1.0.0",
+    "class": "TransferParkPlugin",
+    "requires": [
+      {
+        "@twilio/flex-ui": "^1"
+      }
+    ],
+    "src": "http://localhost:8888/plugin-transfer-park.js"
+  }
+]

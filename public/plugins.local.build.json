@@ -1,0 +1,13 @@
+[
+  {
+    "name": "TransferParkPlugin",
+    "version": "1.0.0",
+    "class": "TransferParkPlugin",
+    "requires": [
+      {
+        "@twilio/flex-ui": "^1"
+      }
+    ],
+    "src": "http://127.0.0.1:8085"
+  }
+]

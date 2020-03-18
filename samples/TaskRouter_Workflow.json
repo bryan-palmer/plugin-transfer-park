@@ -1,0 +1,25 @@
+{
+    "task_routing": {
+      "filters": [
+        {
+          "filter_friendly_name": "Task Parked By Worker",
+          "expression": "workerParked == true",
+          "targets": [
+            {
+              "queue": "YOURQUEUEHERE",
+              "expression": "worker.contact_uri == task.targetWorkerContactUri"
+            }
+          ]
+        },
+        {
+          "filter_friendly_name": "All Other Calls",
+          "expression": "1==1",
+          "targets": [
+            {
+              "queue": "YOURQUEUEHERE"
+            }
+          ]
+        }
+      ]
+    }
+  }
